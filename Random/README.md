@@ -1,12 +1,10 @@
 # Dataset train/test split
 
-Deterministic 80/20 train/test split stratified by the `DEPARTMENT` field in `metainfo.csv`.
+Deterministic 80/20 train/test split stratified by the `DEPARTMENT` field.
 
-- Random seed: `42`
 - Total records: 3,083
-- Image and label files remain in the original `images/` and `labels/` directories.
+- Image and label files remain in the original MID-3K `images/` and `labels/` directories.
 - `train.txt` and `test.txt` list image paths relative to the repository root.
-- `train.csv` and `test.csv` include the original metadata plus `IMAGE_PATH` and `LABEL_PATH`.
 
 | Split | Total | DEEC | DEI |
 |---|---:|---:|---:|
